@@ -42,7 +42,7 @@ ES||D5G2;|pin@8||U
 X
 
 # Cell full_adder;1{lay}
-Cfull_adder;1{lay}||mocmos|1569605986725|1574021369414||DRC_last_good_drc_area_date()G1574021180860|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1574021180860
+Cfull_adder;1{lay}||mocmos|1569605986725|1574021369414||DRC_last_good_drc_area_date()G1574021372359|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1574021372359
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Metal-2-Con|contact@0||-109|1||||
 NMetal-1-Metal-2-Con|contact@1||-109|9||||
@@ -166,37 +166,6 @@ ECi||D5G2;|conn@2|a|U
 EG||D5G2;|conn@6|y|U
 EP||D5G2;|conn@5|y|U
 ES||D5G2;|conn@3|y|U
-X
-
-# Cell gp_mod;1{sch}
-Cgp_mod;1{sch}||schematic|1574018136801|1574018778736|
-Ngeneric:Facet-Center|art@0||0|0||||AV
-NOff-Page|conn@0||-21.5|6||||
-NOff-Page|conn@1||-21.5|2||||
-NOff-Page|conn@2||13|4||||
-NOff-Page|conn@3||13|-6||||
-Iinv_well;1{ic}|inv_well@0||6|-7|||D5G4;
-Inand;1{ic}|nand@1||-5.5|-7|||D5G4;
-NWire_Pin|pin@3||-17|2||||
-NWire_Pin|pin@4||-17|-8||||
-NWire_Pin|pin@5||-14|6||||
-NWire_Pin|pin@6||-14|-4||||
-Ixor;1{ic}|xor@0||-5.5|4|||D5G4;
-Awire|net@3|||1800|nand@1|O|0.5|-6|inv_well@0|A|1|-6
-Awire|net@6|||1800|conn@1|y|-19.5|2|pin@3||-17|2
-Awire|net@7|||1800|pin@3||-17|2|xor@0|B|-10.5|2
-Awire|net@8|||900|pin@3||-17|2|pin@4||-17|-8
-Awire|net@9|||1800|pin@4||-17|-8|nand@1|B|-10.5|-8
-Awire|net@10|||1800|conn@0|y|-19.5|6|pin@5||-14|6
-Awire|net@11|||1800|pin@5||-14|6|xor@0|A|-10.5|6
-Awire|net@12|||900|pin@5||-14|6|pin@6||-14|-4
-Awire|net@13|||1800|pin@6||-14|-4|nand@1|A|-10.5|-4
-Awire|net@14|||1800|inv_well@0|O|9|-6|conn@3|a|11|-6
-Awire|net@15|||1800|xor@0|O|-1.5|4|conn@2|a|11|4
-Ea||D5G2;|conn@0|a|U
-Eb||D5G2;|conn@1|a|U
-Eg||D5G2;|conn@3|y|U
-Ep||D5G2;|conn@2|y|U
 X
 
 # Cell inv;1{ic}
