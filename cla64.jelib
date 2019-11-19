@@ -13,7 +13,7 @@ Tmocmos-cn|ScaleFORmocmos-cn()D175.0
 Tschematic|Gate InclusionINschematic()BT
 
 # Cell c1;1{ic}
-Cc1;1{ic}||artwork|1574104346541|1574104512619|E
+Cc1;1{ic}||artwork|1574104346541|1574131957646|E
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOpened-Thicker-Polygon|art@1||0|0|6|10|||SCHEM_function(D5G2;)Sc1|trace()V[3/5,3/-5,-3/-5,-3/5,3/5]
 Nschematic:Bus_Pin|pin@0||5|0|||RR|
@@ -28,10 +28,10 @@ Aschematic:wire|net@0|||1800|pin@1||3|0|pin@0||5|0
 Aschematic:wire|net@1|||0|pin@3||-3|2|pin@2||-5|2
 Aschematic:wire|net@2|||0|pin@5||-3|0|pin@4||-5|0
 Aschematic:wire|net@3|||0|pin@7||-3|-2|pin@6||-5|-2
-Ec1||D5G2;|pin@0||U
-Eci||D5G2;|pin@2||U
-Eg0||D5G2;|pin@4||U
-Ep0||D5G2;|pin@6||U
+Ec1||D5G2;X-1.5;|pin@0||U
+Eci||D5G2;X-1.5;|pin@2||U
+Eg0||D5G2;X-1.5;|pin@4||U
+Ep0||D5G2;X-1.5;|pin@6||U
 X
 
 # Cell c1;1{lay}
@@ -99,30 +99,8 @@ Eg0||D5G2;|conn@0|a|U
 Ep0||D5G2;|conn@1|a|U
 X
 
-# Cell c2;2{ic}
-Cc2;2{ic}||artwork|1574104423775|1574104423776|E
-Ngeneric:Facet-Center|art@0||0|0||||AV
-NOpened-Thicker-Polygon|art@1||0|0|6|10|||SCHEM_function(D5G2;)Sc2|trace()V[-3/-5,-3/5,3/5,3/-5,-3/-5]
-Nschematic:Bus_Pin|pin@0||-5|3||||
-Nschematic:Wire_Pin|pin@1||-3|3||||
-Nschematic:Bus_Pin|pin@2||-5|1||||
-Nschematic:Wire_Pin|pin@3||-3|1||||
-Nschematic:Bus_Pin|pin@4||-5|-1||||
-Nschematic:Wire_Pin|pin@5||-3|-1||||
-Nschematic:Bus_Pin|pin@6||-5|-3||||
-Nschematic:Wire_Pin|pin@7||-3|-3||||
-Aschematic:wire|net@0|||0|pin@1||-3|3|pin@0||-5|3
-Aschematic:wire|net@1|||0|pin@3||-3|1|pin@2||-5|1
-Aschematic:wire|net@2|||0|pin@5||-3|-1|pin@4||-5|-1
-Aschematic:wire|net@3|||0|pin@7||-3|-3|pin@6||-5|-3
-Ec1||D5G2;|pin@0||U
-Ec2||D5G2;|pin@2||U
-Eg1||D5G2;|pin@4||U
-Ep1||D5G2;|pin@6||U
-X
-
 # Cell c2;1{ic}
-Cc2;1{ic}||artwork|1574104389927|1574104408798|E
+Cc2;1{ic}||artwork|1574104389927|1574131943665|E
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOpened-Thicker-Polygon|art@1||2.5|0|10|6|||SCHEM_function(D5G2;)Sc2|trace()V[5/-3,-5/-3,-5/3,5/3,5/-3]
 Nschematic:Bus_Pin|pin@0||-4.5|2||||
@@ -137,10 +115,10 @@ Aschematic:wire|net@0|||0|pin@1||-2.5|2|pin@0||-4.5|2
 Aschematic:wire|net@1|||1800|pin@3||7.5|0|pin@2||9.5|0
 Aschematic:wire|net@2|||0|pin@5||-2.5|0|pin@4||-4.5|0
 Aschematic:wire|net@3|||0|pin@7||-2.5|-2|pin@6||-4.5|-2
-Ec1||D5G2;|pin@0||U
-Ec2||D5G2;|pin@2||U
-Eg1||D5G2;|pin@4||U
-Ep1||D5G2;|pin@6||U
+Ec1||D5G2;X-1;|pin@0||U
+Ec2||D5G2;X-1.5;|pin@2||U
+Eg1||D5G2;X-1;|pin@4||U
+Ep1||D5G2;X-1;|pin@6||U
 X
 
 # Cell c2;1{lay}
@@ -207,7 +185,7 @@ Ep1||D5G2;|conn@1|a|U
 X
 
 # Cell c3;1{ic}
-Cc3;1{ic}||artwork|1574104450549|1574104497390|E
+Cc3;1{ic}||artwork|1574104450549|1574131985233|E
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOpened-Thicker-Polygon|art@1||0|0|6|12|||SCHEM_function(D5G2;)Sc3|trace()V[-3/-6,-3/6,3/6,3/-6,-3/-6]
 Nschematic:Bus_Pin|pin@0||-5|5||||
@@ -216,8 +194,8 @@ Nschematic:Bus_Pin|pin@2||5|-0.5|||RR|
 Nschematic:Wire_Pin|pin@3||3|-0.5|||RR|
 Nschematic:Bus_Pin|pin@4||-5|2.5||||
 Nschematic:Wire_Pin|pin@5||-3|2.5||||
-Nschematic:Bus_Pin|pin@6||-5|-3||||
-Nschematic:Wire_Pin|pin@7||-3|-3||||
+Nschematic:Bus_Pin|pin@6||-5|-2.5||||
+Nschematic:Wire_Pin|pin@7||-3|-2.5||||
 Nschematic:Bus_Pin|pin@8||-5|0||||
 Nschematic:Wire_Pin|pin@9||-3|0||||
 Nschematic:Bus_Pin|pin@10||-5|-5||||
@@ -225,15 +203,15 @@ Nschematic:Wire_Pin|pin@11||-3|-5||||
 Aschematic:wire|net@0|||0|pin@1||-3|5|pin@0||-5|5
 Aschematic:wire|net@1|||1800|pin@3||3|-0.5|pin@2||5|-0.5
 Aschematic:wire|net@2|||0|pin@5||-3|2.5|pin@4||-5|2.5
-Aschematic:wire|net@3|||0|pin@7||-3|-3|pin@6||-5|-3
+Aschematic:wire|net@3|||0|pin@7||-3|-2.5|pin@6||-5|-2.5
 Aschematic:wire|net@4|||0|pin@9||-3|0|pin@8||-5|0
 Aschematic:wire|net@5|||0|pin@11||-3|-5|pin@10||-5|-5
-Ec1||D5G2;|pin@0||U
-Ec3||D5G2;|pin@2||U
-Eg1||D5G2;|pin@4||U
-Eg2||D5G2;|pin@6||U
-Ep1||D5G2;|pin@8||U
-Ep2||D5G2;|pin@10||U
+Ec1||D5G2;X-1;|pin@0||U
+Ec3||D5G2;X-1.5;|pin@2||U
+Eg1||D5G2;X-1;|pin@4||U
+Eg2||D5G2;X-1;|pin@6||U
+Ep1||D5G2;X-1;|pin@8||U
+Ep2||D5G2;X-1;|pin@10||U
 X
 
 # Cell c3;1{lay}
@@ -335,6 +313,44 @@ Eg1||D5G2;|conn@2|a|U
 Eg2||D5G2;|conn@4|a|U
 Ep1||D5G2;|conn@0|a|U
 Ep2||D5G2;|conn@3|a|U
+X
+
+# Cell c4;1{ic}
+Cc4;1{ic}||artwork|1574131787448|1574131930012|E
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NOpened-Thicker-Polygon|art@1||0|0|6|14|||SCHEM_function(D5G2;)Sc4|trace()V[-3/-7,-3/7,3/7,3/-7,-3/-7]
+Nschematic:Bus_Pin|pin@0||-5|6||||
+Nschematic:Wire_Pin|pin@1||-3|6||||
+Nschematic:Bus_Pin|pin@2||5|0||||
+Nschematic:Wire_Pin|pin@3||3|0||||
+Nschematic:Bus_Pin|pin@4||-5|4||||
+Nschematic:Wire_Pin|pin@5||-3|4||||
+Nschematic:Bus_Pin|pin@6||-5|0||||
+Nschematic:Wire_Pin|pin@7||-3|0||||
+Nschematic:Bus_Pin|pin@8||-5|-4||||
+Nschematic:Wire_Pin|pin@9||-3|-4||||
+Nschematic:Bus_Pin|pin@10||-5|2||||
+Nschematic:Wire_Pin|pin@11||-3|2||||
+Nschematic:Bus_Pin|pin@12||-5|-2||||
+Nschematic:Wire_Pin|pin@13||-3|-2||||
+Nschematic:Bus_Pin|pin@14||-5|-6||||
+Nschematic:Wire_Pin|pin@15||-3|-6||||
+Aschematic:wire|net@0|||0|pin@1||-3|6|pin@0||-5|6
+Aschematic:wire|net@1|||1800|pin@3||3|0|pin@2||5|0
+Aschematic:wire|net@2|||0|pin@5||-3|4|pin@4||-5|4
+Aschematic:wire|net@3|||0|pin@7||-3|0|pin@6||-5|0
+Aschematic:wire|net@4|||0|pin@9||-3|-4|pin@8||-5|-4
+Aschematic:wire|net@5|||0|pin@11||-3|2|pin@10||-5|2
+Aschematic:wire|net@6|||0|pin@13||-3|-2|pin@12||-5|-2
+Aschematic:wire|net@7|||0|pin@15||-3|-6|pin@14||-5|-6
+Ec1||D5G2;X-1.5;|pin@0||I
+Ec4||D5G2;X1.5;|pin@2||O
+Eg1||D5G2;X-1.5;|pin@4||I
+Eg2||D5G2;X-1.5;|pin@6||I
+Eg3||D5G2;X-1.5;|pin@8||I
+Ep1||D5G2;X-1.5;|pin@10||I
+Ep2||D5G2;X-1.5;|pin@12||I
+Ep3||D5G2;X-1.5;|pin@14||I
 X
 
 # Cell c4;2{lay}
@@ -775,8 +791,9 @@ Evdd||D5G2;|well@3||P
 X
 
 # Cell c4;1{sch}
-Cc4;1{sch}||schematic|1574025165688|1574131310284|
+Cc4;1{sch}||schematic|1574025165688|1574131787464|
 Ngeneric:Facet-Center|art@0||0|0||||AV
+Ic4;1{ic}|c4@0||87.5|-0.5|||D5G4;
 NOff-Page|conn@0||-17|-29||||
 NOff-Page|conn@1||-17|-33||||
 NOff-Page|conn@2||-17|-25||||
