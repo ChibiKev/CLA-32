@@ -1605,7 +1605,7 @@ Es15||D5G2;|pin@84||U
 X
 
 # Cell cla16;1{lay}
-Ccla16;1{lay}||mocmos|1574647989964|1575081567533||DRC_last_good_drc_area_date()G1575081165983|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1575081165983
+Ccla16;1{lay}||mocmos|1574647989964|1575081567533||DRC_last_good_drc_area_date()G1575081569539|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1575081569539
 Ngeneric:Facet-Center|art@0||0|0||||AV
 Ic2;1{lay}|c2@0||398.5|276||A|D5G4;
 Ic3;1{lay}|c3@0||416.5|-160|RRR|A|D5G4;
