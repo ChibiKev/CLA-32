@@ -271,7 +271,7 @@ Ep3|p2|D5G2;X-1.5;|pin@14||I
 X
 
 # Cell c3;2{lay}
-Cc3;2{lay}||mocmos|1574126878564|1575600752579||DRC_last_good_drc_area_date()G1575600757191|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1575600757191
+Cc3;2{lay}||mocmos|1574126878564|1575655326702||DRC_last_good_drc_area_date()G1575600757191|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1575600757191
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Metal-2-Con|contact@9||-205.5|7||||
 NMetal-1-Metal-2-Con|contact@10||-205.5|14||||
@@ -326,15 +326,15 @@ AMetal-1|net@37||2|S0|inv_well@4|vdd|-45.5|58.5|nand@10|vdd|-80.5|58.5
 AMetal-1|net@38||2|S0|nand@10|vdd|-80.5|58.5|nand@9|vdd|-119.5|58.5
 AMetal-1|net@39||2|S0|nand@9|vdd|-119.5|58.5|inv_well@3|vdd|-154.5|58.5
 AMetal-1|net@40||2|S0|inv_well@3|vdd|-154.5|58.5|nand@6|vdd|-189.5|58.5
-Ec4|c3|D5G2;|nand@8|O|O
-Ec1|cin|D5G2;|nand@6|A|I
-Eg1|g0|D5G2;|contact@9||I
-Eg2|g1|D5G2;|contact@11||I
-Eg3|g2|D5G2;|contact@13||I
+Ec4|c3|D5G3;X5;|nand@8|O|O
+Ec1|cin|D5G3;X-5;|nand@6|A|I
+Eg1|g0|D5G3;X-5;|contact@9||I
+Eg2|g1|D5G3;X-5;|contact@11||I
+Eg3|g2|D5G3;X-5;|contact@13||I
 Egnd||D5G2;|nand@6|gnd|G
-Ep1|p0|D5G2;|nand@6|B|I
-Ep2|p1|D5G2;|contact@10||I
-Ep3|p2|D5G2;|contact@12||I
+Ep1|p0|D5G3;X-5;|nand@6|B|I
+Ep2|p1|D5G3;X-5;|contact@10||I
+Ep3|p2|D5G3;X-5;|contact@12||I
 Evdd||D5G2;|nand@6|vdd|P
 X
 
@@ -833,7 +833,7 @@ Es3||D5G2;X-1.5;|pin@28||U
 X
 
 # Cell cla4;1{lay}
-Ccla4;1{lay}||mocmos|1574370055135|1575599905063||DRC_last_good_drc_area_date()G1575600762486|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1575599907355
+Ccla4;1{lay}||mocmos|1574370055135|1575655342963||DRC_last_good_drc_area_date()G1575600762486|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1575599907355
 Ngeneric:Facet-Center|art@0||0|0||||AV
 Ic1;1{lay}|c2@0||-183.5|-80.5||A|D5G4;
 Ic2;1{lay}|c3@1||-210|-155||A|D5G4;
@@ -1227,13 +1227,13 @@ EB1|b1|D5G10;X-7;|contact@40||I
 EB2@857238649|b2|D5G10;X-7;|contact@38||I
 EB3|b3|D5G10;X-7;|contact@36||I
 Ecin||D5G10;X-7;|contact@75||O
-Egg||D5G10;X7;|contact@43||U
-Egnd||D5G10;|full_add@1|gnd|G
-Epg||D5G10;X7;|contact@68||U
-Es0||D5G10;X7;|contact@76||U
-ES1|s1|D5G10;X7;|contact@7||O
-Es2||D5G10;X7;|contact@61||U
-ES3|s3|D5G10;X7;|contact@34||O
+Egg||D5G10;X8.5;|contact@43||U
+Egnd||D5G10;Y-5;|full_add@1|gnd|G
+Epg||D5G10;X8.5;|contact@68||U
+Es0||D5G10;X8.5;|contact@76||U
+ES1|s1|D5G10;X8.5;|contact@7||O
+Es2||D5G10;X8.5;|contact@61||U
+ES3|s3|D5G10;X8.5;|contact@34||O
 Evdd||D5G10;Y5;|pin@207||U
 X
 
