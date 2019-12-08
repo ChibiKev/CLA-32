@@ -62,7 +62,7 @@ l a28
 l a29
 l a30
 l a31
-s 0.900
+s 0.500
 h a0
 h a1
 h a2
@@ -94,5 +94,5 @@ h a27
 h a28
 h a29
 h a30
-h b0
+h b31
 
