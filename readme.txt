@@ -37,4 +37,6 @@ To run the LTSPICE code, follow the steps below. There are only two steps, becau
 1. Start Electric VLSI and load one of the jelib files.
 2. Navigate to the cla32{sch} or cla32{lay} circuit.
 3. Go to Tools > Simulation (Spice) > Write Spice Deck.
-Note 1: The location of the models.txt may differ so change according to your respective location.
+Note: The location of the spice models file may differ so change according to your respective location. To use the same models file that was used in our simulations, see optional step 4.
+
+4. (Optional) The models file used in these LTSPICE simulations are also included in the LTSPICE/ directory. To work with them, copy the file (kim_models.txt) into the C:\Electric\ directory. In doing this, the user will not have to modify the LTSPICE code itself to get it working on their system.
