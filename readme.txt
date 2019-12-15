@@ -20,7 +20,7 @@ Section 2 - IRSIM
 
 To run the IRSIM, follow the steps below.
 
-1. Load a version of Electric that contains IRSIM and load one of the jelib iles.
+1. Load a version of Electric that contains IRSIM and load one of the jelib files.
 2. Navigate to the cla32{sch} or cla32{lay} circuit.
 3. Go to Tools > Simulation (Built-In) > IRSIM: Simulate Current Cell
 4. Then go to Tools > Simulation (Built-In) > Restore Stimuli from Disk...
@@ -37,3 +37,4 @@ To run the LTSPICE code, follow the steps below. There are only two steps, becau
 1. Start Electric VLSI and load one of the jelib files.
 2. Navigate to the cla32{sch} or cla32{lay} circuit.
 3. Go to Tools > Simulation (Spice) > Write Spice Deck.
+Note 1: The location of the models.txt may differ so change according to your respective location.
